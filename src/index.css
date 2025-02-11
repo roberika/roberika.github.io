@@ -11,11 +11,15 @@ j {
 }
 
 .app {
-  @apply w-11/12 mx-auto
+  @apply w-11/12 mx-auto my-12
 }
 
-.header {
-  @apply text-7xl text-center p-10
+.header {@apply font-extralight italic text-center text-slate-700}
+.header.title {@apply text-7xl}
+.header.subtitle {@apply text-3xl} 
+
+.footer {
+  @apply text-2xl font-extralight italic text-right text-slate-700
 }
 
 .card {
